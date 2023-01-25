@@ -46,4 +46,27 @@ Session 3 - Data Preprocessing
 5. Tagging
 	Menentukan kategori dari sebuah kata
 
-6. Named Entity 
+6. Named Entity Recognition
+
+7. Frequency Distribution
+	Menghitung berapa kali sebuah kata muncul
+
+
+
+Session 4 - Corpora & Word Net
+==============================
+
+Corpora adalah Collection dari text atau audio data yang dibuat oleh native speaker dari bahasa tersebut
+
+
+
+Session 5 - Naive Bayes
+==============================
+
+Supervised Learning -> Metode Machine Learning dimana training data sudah diberikan label
+
+Classifying -> Hal yang kita lakukan untuk membagi kelas atau ketegori dari test data
+
+Bayes Theorem
+
+P(A|B) = P(B|A) P(A) / P(B)
