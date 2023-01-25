@@ -1,0 +1,49 @@
+NATURAL LANGUAGE PROCESSING
+
+Session 1 & Session 2 - Introduction to Python
+==============================================
+
+
+
+Session 3 - Data Preprocessing
+==============================
+1. Tokenizing
+	Tokenizing membagi text ke dalam sebuah token(word, symbol)
+	- Sentence Tokenizing:
+		Membagi paragraph menjadi per kalimat
+	- Word Tokenizing:
+		Membagi paragraph menjadi word
+
+2. Stop Words
+	Kata pelengkap yang gak punya arti penting
+	
+	contoh: "I have a pen and pencil"
+	
+	Kata "and" itu hanya pelengkap, tanpa kata "and" pun, kita tahu kalau dia punya pen and pencil
+
+	Stop words seperti itu kita hilangkan karena tidak akan membawa pengaruh yang besar, dan hanya akan memakan tempat.
+
+3. Stemming
+	Stemming adalah kegiatan menghilangkan imbuhan
+	
+	Algo-algo berikut menggunakan pola
+	contoh: 
+			menghilangkan 's' yang ada di belakang
+			menghilangkan 'ing' yang ada di belakang
+
+	PorterStemmer
+		PorterStemmer algoritmanya lambat, tapi akurasinya tinggi, dan hanya bisa di bahasa inggris
+
+	SnowballStemmer
+		PorterStemmer V2 (Bisa dalam beberapa bahasa)
+
+	LancasterStemmer
+		Algoritmanya cepat, tapi akuarsinya kurang bagus
+
+4. Lemmatizing
+	Menentukan konteks dari sebuah kata dan mengubah sesuai 
+	
+5. Tagging
+	Menentukan kategori dari sebuah kata
+
+6. Named Entity 
